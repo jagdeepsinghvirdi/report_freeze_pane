@@ -1,7 +1,7 @@
 {
   "report_freeze_pane": {
     "js": [
-      "report_freeze_pane/public/js/report_freeze_column.js"
+      "public/js/report_freeze_column.js"
     ],
     "css": []
   }
