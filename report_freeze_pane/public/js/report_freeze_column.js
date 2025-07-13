@@ -1,11 +1,9 @@
 frappe.after_ajax(() => {
   const Report = frappe.ui.Report;
-
   const originalSetupDatatable = Report.prototype.setup_datatable;
 
   Report.prototype.setup_datatable = function () {
     originalSetupDatatable.call(this);
-
     const datatable = this.datatable;
     if (!datatable) return;
 
